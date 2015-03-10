@@ -20,7 +20,8 @@ Here it is assumed that you have the downloaded the data and saved it in a zip f
 ```{r}
 ## Please note I have taken this course before
 ## Thus you might find a few things being replicated
-## But I have tried to remove the previous repo and start a new.
+## But I have tried to remove the previous repo and start a new. 
+## Thanks.
 unzip("activity.zip", exdir = "activity")
 datass <- read.csv("./activity/activity.csv" 
                  , stringsAsFactors = FALSE)
